@@ -1,0 +1,39 @@
+#################################################
+#               RangedWolves v1.0               #
+#               Author: BlahBerrys              #
+#            Orginal plugin by: dasbreen        #
+#                                               #
+#   dev.bukkit.org/server-mods/rangedwolves/    #
+#################################################
+
+# Projectiles that will trigger a pet to attack
+Projectiles:
+  Arrow: true
+  Egg: true
+  Fireball: true
+  Small-Fireball: true
+  Snowball: true
+  Potions: true
+
+# Per player configuration
+Owner:
+  max-wolves: 4
+  command-item: 352
+  can-attack-own: false
+  attack-creepers: false
+
+# Server configuration
+Server:
+  worlds:
+    - world
+    - world_nether
+    - world_end
+  wolf-pvp: true
+  search-limit: 50.0D
+# THIS MUST BE FORMATTED WITH AN .0D AFTER YOUR NUMBER!
+# Search limit is the is the block radius in which a player may search fo wolves
+# the higher the limit the greater the chance for lag, for example if a player uses
+# /rangedwolves search 1000 the plugin will search for all wolves in a 1000 block radius.
+
+# If you change this the plugin will not run... so don't touch it.
+version: 1.0

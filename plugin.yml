@@ -1,0 +1,9 @@
+name: RangedWolves
+version: 1.0
+description: Bring out you're hunting dogs!
+author: BlahBerrys
+main: me.BlahBerrys.rangedwolves.RWMain
+commands:
+  rangedwolves:
+    aliases: [rw, ranged]
+    description: A variety of commands associated with RangedWolves.
